@@ -1,0 +1,99 @@
+ PTI INTERACTIVE POWER SYSTEM SIMULATOR--PSS(R)E Xplore TUE, MAR 08 2016   3:07
+ 08/19/93 UW ARCHIVE           100.0  1962 W IEEE 14 BUS TES             RATING   %MVA FOR TRANSFORMERS
+                                                                          SET A   %MVA FOR NON-TRANSFORMER BRANCHES
+
+BUS      1 BUS 1       138.00 CKT     MW     MVAR     MVA   % 1.0600PU    0.00  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X      1
+ FROM GENERATION                    232.4   -16.5L  233.0  38 146.28KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO      2 BUS 2       138.00  1    156.9   -20.4   158.2                           4.30*   13.12    1 IEEE14          1 IEEE 14
+ TO      5 BUS 5       138.00  1     75.5     3.9    75.6                           2.76*   11.41    1 IEEE14          1 IEEE 14
+
+BUS      2 BUS 2       138.00 CKT     MW     MVAR     MVA   % 1.0450PU   -4.98  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X      2
+ FROM GENERATION                     40.0    43.6R   59.1  99 144.21KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                          21.7    12.7    25.1
+ TO      1 BUS 1       138.00  1   -152.6    27.7   155.1                           4.30   13.12    1 IEEE14          1 IEEE 14
+ TO      3 BUS 3       138.00  1     73.2     3.6    73.3                           2.32*    9.79    1 IEEE14          1 IEEE 14
+ TO      4 BUS 4       138.00  1     56.1    -1.6    56.2                           1.68*    5.09    1 IEEE14          1 IEEE 14
+ TO      5 BUS 5       138.00  1     41.5     1.2    41.5                           0.90*    2.76    1 IEEE14          1 IEEE 14
+
+BUS      3 BUS 3       138.00 CKT     MW     MVAR     MVA   % 1.0100PU  -12.73  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X      3
+ FROM GENERATION                      0.0    25.1R   25.1  42 139.38KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                          94.2    19.0    96.1
+ TO      2 BUS 2       138.00  1    -70.9     1.6    70.9                           2.32    9.79    1 IEEE14          1 IEEE 14
+ TO      4 BUS 4       138.00  1    -23.3     4.5    23.7                           0.37*    0.95    1 IEEE14          1 IEEE 14
+
+BUS      4 BUS 4       138.00 CKT     MW     MVAR     MVA   % 1.0177PU  -10.31  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X      4
+                                                              140.44KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                          47.8    -3.9    48.0
+ TO      2 BUS 2       138.00  1    -54.5     3.0    54.5                           1.68    5.09    1 IEEE14          1 IEEE 14
+ TO      3 BUS 3       138.00  1     23.7    -4.8    24.1                           0.37    0.95    1 IEEE14          1 IEEE 14
+ TO      5 BUS 5       138.00  1    -61.2    15.8    63.2                           0.51*    1.62    1 IEEE14          1 IEEE 14
+ TO      7 BUS 7       138.00  1     28.1    -9.7    29.7     0.9780LK              0.00*    1.70    1 IEEE14          1 IEEE 14
+ TO      9 BUS 9       138.00  1     16.1    -0.4    16.1     0.9690LK              0.00*    1.30    1 IEEE14          1 IEEE 14
+
+BUS      5 BUS 5       138.00 CKT     MW     MVAR     MVA   % 1.0195PU   -8.77  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X      5
+                                                              140.69KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                           7.6     1.6     7.8
+ TO      1 BUS 1       138.00  1    -72.7     2.2    72.8                           2.76   11.41    1 IEEE14          1 IEEE 14
+ TO      2 BUS 2       138.00  1    -40.6    -2.1    40.7                           0.90    2.76    1 IEEE14          1 IEEE 14
+ TO      4 BUS 4       138.00  1     61.7   -14.2    63.3                           0.51    1.62    1 IEEE14          1 IEEE 14
+ TO      6 BUS 6       138.00  1     44.1    12.5    45.8     0.9320LK              0.00*    4.42    1 IEEE14          1 IEEE 14
+
+BUS      6 BUS 6       138.00 CKT     MW     MVAR     MVA   % 1.0700PU  -14.22  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X      6
+ FROM GENERATION                      0.0    12.7R   12.7  51 147.66KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                          11.2     7.5    13.5
+ TO      5 BUS 5       138.00  1    -44.1    -8.0    44.8     1.0000UN              0.00    4.42    1 IEEE14          1 IEEE 14
+ TO     11 BUS 11      138.00  1      7.4     3.6     8.2                           0.06*    0.12    1 IEEE14          1 IEEE 14
+ TO     12 BUS 12      138.00  1      7.8     2.5     8.2                           0.07*    0.15    1 IEEE14          1 IEEE 14
+ TO     13 BUS 13      138.00  1     17.7     7.2    19.2                           0.21*    0.42    1 IEEE14          1 IEEE 14
+
+BUS      7 BUS 7       138.00 CKT     MW     MVAR     MVA   % 1.0615PU  -13.36  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X      7
+                                                              146.49KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO      4 BUS 4       138.00  1    -28.1    11.4    30.3     1.0000UN              0.00    1.70    1 IEEE14          1 IEEE 14
+ TO      8 BUS 8       138.00  1     -0.0   -17.2    17.2                           0.00    0.46    1 IEEE14          1 IEEE 14
+ TO      9 BUS 9       138.00  1     28.1     5.8    28.7                           0.00    0.80    1 IEEE14          1 IEEE 14
+
+BUS      8 BUS 8       138.00 CKT     MW     MVAR     MVA   % 1.0900PU  -13.36  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X      8
+ FROM GENERATION                      0.0    17.6R   17.6  70 150.42KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO      7 BUS 7       138.00  1      0.0    17.6    17.6                           0.00    0.46    1 IEEE14          1 IEEE 14 PTI INTERACTIVE POWER SYSTEM SIMULATOR--PSS(R)E Xplore TUE, MAR 08 2016   3:07
+ 08/19/93 UW ARCHIVE           100.0  1962 W IEEE 14 BUS TES             RATING   %MVA FOR TRANSFORMERS
+                                                                          SET A   %MVA FOR NON-TRANSFORMER BRANCHES
+
+BUS      9 BUS 9       138.00 CKT     MW     MVAR     MVA   % 1.0559PU  -14.94  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X      9
+                                                              145.72KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                          29.5    16.6    33.8
+ TO SHUNT                             0.0   -21.2    21.2
+ TO      4 BUS 4       138.00  1    -16.1     1.7    16.2     1.0000UN              0.00    1.30    1 IEEE14          1 IEEE 14
+ TO      7 BUS 7       138.00  1    -28.1    -5.0    28.5                           0.00    0.80    1 IEEE14          1 IEEE 14
+ TO     10 BUS 10      138.00  1      5.2     4.2     6.7                           0.01*    0.03    1 IEEE14          1 IEEE 14
+ TO     14 BUS 14      138.00  1      9.4     3.6    10.1                           0.12*    0.25    1 IEEE14          1 IEEE 14
+
+BUS     10 BUS 10      138.00 CKT     MW     MVAR     MVA   % 1.0510PU  -15.10  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X     10
+                                                              145.04KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                           9.0     5.8    10.7
+ TO      9 BUS 9       138.00  1     -5.2    -4.2     6.7                           0.01    0.03    1 IEEE14          1 IEEE 14
+ TO     11 BUS 11      138.00  1     -3.8    -1.6     4.1                           0.01*    0.03    1 IEEE14          1 IEEE 14
+
+BUS     11 BUS 11      138.00 CKT     MW     MVAR     MVA   % 1.0569PU  -14.79  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X     11
+                                                              145.85KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                           3.5     1.8     3.9
+ TO      6 BUS 6       138.00  1     -7.3    -3.4     8.1                           0.06    0.12    1 IEEE14          1 IEEE 14
+ TO     10 BUS 10      138.00  1      3.8     1.6     4.1                           0.01    0.03    1 IEEE14          1 IEEE 14
+
+BUS     12 BUS 12      138.00 CKT     MW     MVAR     MVA   % 1.0552PU  -15.08  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X     12
+                                                              145.62KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                           6.1     1.6     6.3
+ TO      6 BUS 6       138.00  1     -7.7    -2.4     8.1                           0.07    0.15    1 IEEE14          1 IEEE 14
+ TO     13 BUS 13      138.00  1      1.6     0.8     1.8                           0.01*    0.01    1 IEEE14          1 IEEE 14
+
+BUS     13 BUS 13      138.00 CKT     MW     MVAR     MVA   % 1.0504PU  -15.16  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X     13
+                                                              144.95KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                          13.5     5.8    14.7
+ TO      6 BUS 6       138.00  1    -17.5    -6.8    18.8                           0.21    0.42    1 IEEE14          1 IEEE 14
+ TO     12 BUS 12      138.00  1     -1.6    -0.7     1.8                           0.01    0.01    1 IEEE14          1 IEEE 14
+ TO     14 BUS 14      138.00  1      5.6     1.7     5.9                           0.05*    0.11    1 IEEE14          1 IEEE 14
+
+BUS     14 BUS 14      138.00 CKT     MW     MVAR     MVA   % 1.0355PU  -16.03  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X     14
+                                                              142.90KV               MW     MVAR    1 IEEE14          1 IEEE 14
+ TO LOAD-PQ                          14.9     5.0    15.7
+ TO      9 BUS 9       138.00  1     -9.3    -3.4     9.9                           0.12    0.25    1 IEEE14          1 IEEE 14
+ TO     13 BUS 13      138.00  1     -5.6    -1.6     5.8                           0.05    0.11    1 IEEE14          1 IEEE 14

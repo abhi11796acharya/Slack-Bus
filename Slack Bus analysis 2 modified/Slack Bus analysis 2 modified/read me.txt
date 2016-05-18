@@ -1,0 +1,33 @@
+Dear Vanita and Abhishek,
+
+Please see the following observations are need to be performed in detail based on submitted report today.
+
+1. During IEEE 14 bus system case study, instead of [1,2,3 buses] as slack buses, consider  [1,2 buses only] as slack buses and perform the discussed analysis.
+
+2. Similarly during IEEE 30 bus system case study, instead of [1,2,3 buses] as slack buses, consider [1,11,13 buses] as slack buses and perform the discussed analysis.
+
+3. As per report submitted, the total losses computed during different case studies on IEEE 14 and IEEE 30 bus systems didn't match with total generated power 
+minus load demand. Look into this issue during above analysis period.i.e.
+IEEE 14 bus : Total Losses (as per submitted report)            Total generated power minus load demand (as per computation)
+              ONE    24.4632 MW                                                          17.4 MW
+         THREE       8.03     MW                                                            4.1 MW
+
+IEEE 30 bus : Total Losses (as per submitted report)            Total generated power minus load demand (as per computation)
+              ONE    35.462 MW                                                             25.1 MW
+         THREE     26.63   MW                                                            14.3 MW
+
+In general, total losses and total generated power minus load demand must be equal.
+
+4. IEEE 30 bus single line diagram need to be updated at generator bus numbers with respect to PV buses data reported.
+
+
+And also perform the updated analysis for above case studies, it will be required for your research paper to be published in reputed journal.
+
+
+Answer
+For 30 BUS system
+* By mistake i had entered wrong data of bus 22 in real power injection. It has been rectified now.
+* Earlier calculated loss is wrong as i had taken one data twice in calculation.
+For 14 BUS system
+* By mistake i had entered wrong data of bus 6 in real power injection. It has been rectified now.
+* Earlier calculated loss is wrong as i had taken one data twice in calculation.
